@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpeboboTV TV</title>
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="tv.css">
+</head>
+<body>
+  <header id="nav" class="top">
+    <div class="brand"><span class="logo-sq"><svg viewBox="0 0 32 32" width="100%" height="100%"><path d="M11 8v16l13-8z" fill="#050505"/></svg></span>OpeboboTV</div>
+    <nav>
+      <a class="navi f" href="#/" data-k="nav-home" data-nav="home">Home</a>
+      <a class="navi f" href="#/movies" data-k="nav-movies" data-nav="movies">Movies</a>
+      <a class="navi f" href="#/shows" data-k="nav-shows" data-nav="shows">Shows</a>
+      <a class="navi f" href="#/search" data-k="nav-search" data-nav="search">Search</a>
+      <a class="navi f" href="#/list" data-k="nav-list" data-nav="list">My List</a>
+      <a class="navi f" href="#/settings" data-k="nav-settings" data-nav="settings">Settings</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div id="modal">
+    <div class="modal-box">
+      <button id="modal-x" class="btn f" data-k="modal-close" type="button">Close</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <div id="toast"></div>
+  <script src="config.js"></script>
+  <script src="tv.js"></script>
+</body>
+</html>
